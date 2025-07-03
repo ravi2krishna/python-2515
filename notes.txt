@@ -1,0 +1,86 @@
+30th June 2025    
+==============
+
+    -> Programming Language
+
+        Global   North  South (Regions)  
+    -> English, Hindi, Telugu etc
+
+        -> Communication for Humans
+
+    -> Programming Language
+
+        -> Communication for Computers/Machines etc
+
+        -> Python, Java, C, HTML, JS etc (Domains)  
+
+            -> Java (Banking, Enterprise etc )
+
+                -> ROBUSTNESS 
+
+                -> APPLICATIONS ARE FAST
+
+                -> SPEED OF DEVELOPMENT (SLOW)
+
+            -> Python (AI, DS, Cloud, Backend Systems etc)
+
+                -> EASINESS (SYNTAX)
+
+                -> SPEED OF DEVELOPMENT (FAST)
+
+
+    -> Programming Paradigms
+
+        -> Imperative
+
+            -> HOW TO DO SOMETHING (Python)
+
+        -> Declarative
+
+            -> WHAT TO DO (SQL)
+
+    
+    -> Programming Language Types
+
+        -> HIGH LEVEL
+
+            -> EASY TO UNDERSTAND BY USERS
+
+            -> Python is High Level Programming Language
+
+        -> LOW LEVEL
+
+            -> EASY TO UNDERSTAND BY MACHINES
+
+    -> 01010111(W) 01100101(e) 01101100 01100011 01101111 01101101 
+       01100101 00100000 01010100 01101111 00100000 01010000 
+       01111001 01110100 01101000 01101111 01101110    (Low Level/Machine Level)    
+
+       -> Embedded Systems, Networking, System Drivers, OS Level etc 
+
+    ->  print("Welcome To Python")
+
+    -> Indentation
+
+        -> Simple Java Program (Calculate Sum Of Two Numbers)
+
+            --> Main.java    
+            public class Main {
+                public static void main(String[] args) {
+                    public String a = 10;
+                    public int b = 10;
+                    public String text = "hello";
+                    int sum = a+b;
+                    System.out.println("Sum is": +sum)
+                }
+            }
+
+        -> Simple Python Program (Calculate Sum Of Two Numbers) 
+
+            --> main.py
+            a = 10
+            b = 10
+            text = "hello"
+            print("Sum is:",a+b )
+
+    -> Daily 45 Mins (9:15 AM to 10 AM)
