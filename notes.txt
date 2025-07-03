@@ -84,3 +84,66 @@
             print("Sum is:",a+b )
 
     -> Daily 45 Mins (9:15 AM to 10 AM)
+
+1st July 2025    
+==============
+
+    -> Python -> Author -> Guido van Rossum
+
+    -> Python 1st version - Feb 1991
+
+    -> ABC Programming Language 
+
+    -> Key Features Of Python / Why Python ?
+
+        -> Simple & Easy (Readability - Indentation(spaces))
+
+        -> Cross Platform (RUN ANYWHERE in macos / win / linux )
+
+        -> Dynamically Typed (Data we don't need to ASSIGN TYPES)
+
+        -> Versatile (Extensive Library Support)
+
+            -> DS / ML / AI : Numpy, Pandas, Tensorflow, PyTorch etc
+
+            -> Web Development : Django, Flask, FASTAPI etc 
+
+            -> Scripting / Automation: Boto3, Azure Python SDK, Web Scrapping etc
+
+            -> Desktop Applications: Tkinter, PyQT etc
+
+        -> Interpreted
+
+            -> Compiled (Java)        vs          Interpreted (Python)
+
+                -> Whole Programs                     -> Line By Line  
+                runs once
+
+                -> FAST                              -> SLOW
+
+                -> App Development is SLOW           -> App Development is FAST   
+
+                -> We need more softwares            -> Only focus is on interpreter
+                    compiler, interpreter 
+        
+        -> OOPS (Class & Objects) ( To Represent REAL WORLD ENTITIES )
+
+            -> OOPS Features
+
+                -> Inheritance    (REUSE)
+                -> Abstraction    (Hiding Implementation(Methods) ) 
+                -> Polymorphism   (Many Forms)  (NetBanking, UPI, Credit Card) 
+                -> Encapsulation  (Hiding DATA)  
+
+        -> Functional Programming Language
+
+            -> Lambda Functions / Lambda Expressions (Concise Coding)
+
+    -> Popular Applications Built Using Python ?
+
+        -> Three Tier Architecture
+
+            -> Frontend Tier (HTML,CSS,JS) (Client side tech)   --> EXECUTION ( YOUR DEVICE (your laptop) )
+            -> Backend Tier (Java, Python, Nodejs, C# )         --> EXECUTION ( SERVERS (OnPrem / Cloud) )
+            -> Database Tier (SQL(MySQL, Postgres, MS SQL etc), NOSQL(MongodDB, DynamoDB, CosmosDB etc)) --> EXECUTION ( SERVERS (OnPrem / Cloud) )
+
