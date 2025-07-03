@@ -147,3 +147,51 @@
             -> Backend Tier (Java, Python, Nodejs, C# )         --> EXECUTION ( SERVERS (OnPrem / Cloud) )
             -> Database Tier (SQL(MySQL, Postgres, MS SQL etc), NOSQL(MongodDB, DynamoDB, CosmosDB etc)) --> EXECUTION ( SERVERS (OnPrem / Cloud) )
 
+2nd July 2025    
+==============
+
+    -> Python Environment (Python Runtime)
+
+    -> I have Python App, to run it we need, Python Environment.
+
+    -> Verify Python Runtime
+
+        -> python --version
+    
+    -> We can execute python code in two different modes
+
+        -> Script Mode 
+
+            -> We use files to write the code and execute
+
+            -> In real time we use Script Mode 
+
+            -> We use  (Integrated Development Environment)
+
+        -> Command Line Mode / Interactive Mode
+
+            -> we use CLI, (Command Prompt), to write the code and execute
+        
+        -> IDE 
+
+            -> VS Code (Will use this) --> Very Light Weight & Lot Of Extensions
+            -> PyCharm
+            -> Eclipse
+            -> Notepad++ 
+            -> ATOM
+            -> Sublime Text etc
+
+        -> When we write python code, we cannot use our own Language
+            we need to use what only python interpreter knows
+
+        -> Python Syntax / Python Code Rules
+
+            -> peps.python.org/pep-0008
+
+        -> In python we have keywords
+
+    -> keywords
+
+        -> Predefined reserved words, that have special meaning to python interpreter
+
+        -> We have 35 keywords
