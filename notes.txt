@@ -195,3 +195,28 @@
         -> Predefined reserved words, that have special meaning to python interpreter
 
         -> We have 35 keywords
+
+3rd July 2025    
+==============
+
+    -> Version Controlling 
+
+        -> Tracking CHANGES(CODE/FILES) over a period of time
+
+        -> Git (Client) - Tracks changes inside laptop
+
+            -> git config --global user.name ravi2krishna
+            -> git config --global user.email ravi2krishna@gmail.com
+        
+        -> GitHub (Service/Server) - Tracks changes over organization level
+
+            -> Create GitHub Account 
+            -> Create Repository (Project with history)
+        
+        -> Using VS Code (Clone Repository from GitHub)
+
+            -> Write code (VS Code + Git)
+            -> Stage code (VS Code + Git)
+            -> Commit Code (VS Code + Git)
+            -> Push Code (VS Code + GitHub)
+
