@@ -220,3 +220,34 @@
             -> Commit Code (VS Code + Git)
             -> Push Code (VS Code + GitHub)
 
+7th July 2025    
+==============
+
+    -> Identifiers
+
+        -> Names 
+
+            -> Variables
+            -> Functions
+            -> Modules
+            -> Classes
+            -> Objects
+            -> Methods
+            -> etc
+
+    -> Identifiers Rules
+
+        -> Can Contain
+
+            -> Letters(a-z, A-Z)
+            -> Digits(0-9)            
+            -> UnderScore(_)
+
+        -> Should Start with
+
+            -> A letter(a-z, A-Z) or
+            -> UnderScore(_)   
+
+        -> Cannot Start with Digits
+        -> Cannot be a python keywords(def, if, class etc)        
+        -> Identifiers are case sensitive (Name, name, NAME)
