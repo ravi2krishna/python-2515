@@ -251,3 +251,53 @@
         -> Cannot Start with Digits
         -> Cannot be a python keywords(def, if, class etc)        
         -> Identifiers are case sensitive (Name, name, NAME)
+
+
+    -> Variables
+
+        -> Variables are names of Memory Locations, which are used to STORE DATA
+       
+       -> Variables allow you to
+
+            -> Manipulate Data
+            -> Access Data
+            -> Hold Data
+
+       -> Variables should follow naming conventions
+
+            ->  Identifiers Rules 
+
+       -> Java 
+
+            -> String brand = "Levis";
+            -> float ratings = 4.2f;
+            -> int price = 1600
+            -> int size = 32
+
+        -> Python (Dynamic Typing)
+        
+            -> brand = "Levis" 
+            -> ratings = 4.2
+            -> size = 32    
+
+        -> id function : prints the memory address
+
+        -> type function : prints the datatype being assigned
+
+        -> Outputs
+
+            -> print - to Output values
+
+            -> Concatenation : Combining two more more strings
+                -> + (when used with strings) 
+                -> + (when used with numbers - addition operator) 
+
+        -> Naming conventions
+
+            # ProductName --> Pascal Case (ClassNames)
+
+            # productName --> CamelCase (objectNames)
+
+            # product_name --> SnakeCase (When using variables & functions)
+
+        -> 
