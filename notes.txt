@@ -300,4 +300,15 @@
 
             # product_name --> SnakeCase (When using variables & functions)
 
-        -> 
+
+8th July 2025    
+==============
+
+    -> Interpolation
+
+        -> In context of Programming, Interpolation means REPLACING PLACEHOLDERS with 
+        ACTUAL VALUES
+
+        -> To achieve this, we can use f-strings(Formatted String Literals) in Python
+
+        
