@@ -311,4 +311,7 @@
 
         -> To achieve this, we can use f-strings(Formatted String Literals) in Python
 
+        -> In f-strings we use { } to Represent variables which will be replaced with ACTUAL values
         
+
+
