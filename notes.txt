@@ -312,6 +312,99 @@
         -> To achieve this, we can use f-strings(Formatted String Literals) in Python
 
         -> In f-strings we use { } to Represent variables which will be replaced with ACTUAL values
-        
+
+    -> Operators
+
+        -> Special symbols, that performs operations on variables and values(Operands)
+
+        -> We use Operators to Manipulate variables
+
+        -> Types
+
+            -> Arithmetic Operators 
+
+                -> Mathematical Calculations
+
+                -> + - * / % // **
+
+            -> Compound Assignment Operators
+
+                ->  Combine Assignment operator with Arithmetic Operators  
+
+                -> =,+=, -=, *= etc  
+
+                -> For concise (shorter) syntax
+
+                -> x = x + 5 or -> x += 5
+
+                -> Other Programming Languages like java we have decrement(--) and increment(++) 
+
+                    -> NOTE: python doesn't support decrement(--) and increment(++) 
+            
+            -> Comparison / Relational Operators
+
+                -> Used to compare values and returns a boolean
+
+                -> ==, !=, >, <, <=, >=  
+
+                -> For strings it will check, Lexicographical order i.e Dictionary Order
+                   based on ASCII Values
+
+            -> Logical Operators
+
+                -> Used to combine multiple conditions
+
+                -> and, or, not
+
+                X       Y           X and Y         X or Y    not X
+
+                T       T              T              T         F
+                T       F              F              T         F     
+                F       T              F              T         T
+                F       F              F              F         T
+
+            -> Membership Operators   
+
+                -> Used to check if a sequence is present
+
+                -> If sequence found, returns True
+                -> If sequence not found, returns False
+
+                    -> in 
+                    -> not in
+
+            -> Identity Operators
+
+                -> Used to compare the Objects, not if they are equal(==)
+
+                    -> is
+                    -> is not
+
+            -> Bit Wise Operators
+
+                -> Used to perform operations on binary bits
+
+                -> Use Cases - Embedded Systems, Network Programming etc
+
+                -> &(AND), |(OR), ^(XOR), ~(NOT), <<(Left Shift), >>(Right Shift)
+
+                -> & : sets each bit to 1 if both are 1
+                -> | : sets each bit to 1 if of of the bit is 1
+                -> ^ : sets each bit to 1 if only one of the bits is 1
+                        -> meaning if both values are different then output is 1, 
+                            if both values are same then output is zero
+                -> ~ : inverts the bits
+
+                -> << : Shift left pushing zeros in from right, let the leftmost bits fall off
+
+                -> >> : Sift right by pushing the leftmost bits from the left, 
+                    let the rightmost bits fall off
 
 
+
+                X       Y             X & Y         X | Y     X ^ Y
+
+                1       1               1             1         0
+                1       0              
+                0       1              
+                1       1              
