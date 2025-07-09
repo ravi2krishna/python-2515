@@ -408,3 +408,71 @@
                 1       0              
                 0       1              
                 1       1              
+
+9th July 2025    
+==============
+
+    -> Data Types
+
+        -> Numeric Types
+
+            -> Integer - Whole numbers
+
+                10,20,-10
+            
+            -> Floating Points - Decimal numbers
+
+                3.14, 1.5
+
+            -> Complex Numbers (a+ib) --> i imaginary part
+
+                -> In python we use j instead of i
+
+                -> c = 5 + 5j
+        
+        -> Text Types 
+
+            -> String (a sequence of characters)
+
+            -> In python we don't have character data type
+
+        -> Boolean Types
+
+            -> True
+            -> False
+
+        -> Data Structures
+
+            -> Sequence Types
+
+                -> Lists
+
+                    -> Sequence of values separated with commas, declared inside []
+                    -> Mutable Data (Data can be changed)
+                    -> teams = ["IND","AUS","ENG"]    
+                    -> scores = [5,4,3]
+
+                -> Tuples
+
+                    -> Sequence of values separated with commas, declared inside ()
+                    -> Immutable Data (Data cannot be changed) 
+                    -> teams = ("IND","AUS","ENG")
+                    -> scores = (5,4,3)
+
+                -> Sets
+
+                    -> Sequence of values separated with commas, declared inside { }
+                    -> Mutable Data (Data can be changed)
+                    -> teams = {"IND","AUS","ENG"}
+                    -> scores = {5,4,3}
+                    -> NO DUPLICATES ALLOWED, so data should be UNIQUE ONLY
+
+                -> Maps
+
+                    -> Sequence of key:value pairs separated with commas, declared inside { }
+                    -> Mutable Data (Data can be changed)
+                    -> info = {"name":"ravi","city":"hyd","time":"9am"}
+
+        -> None type
+
+            -> Represent the absence of value            
