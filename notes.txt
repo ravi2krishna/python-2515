@@ -506,5 +506,47 @@
     -> NOTE: If you attempt to convert Incompatible Types i.e converting a non-numeric string
     ti integer we get Errors.
 
-    
+12th July 2025    
+==============
+
+    -> Control Statements / Structures
+
+        -> Conditional Statements (Decision Making Statements)
+
+        -> Looping Statements (Iteration Statements)
+
+        -> Branching Statements (Jump Statements)
+
+    -> Conditional Statements    
+
+        -> Also called as Decision Making Statements
+
+        -> Decision/condition --> True/False (Boolean)
+
+        -> Types Of Conditional Statements    
+
+            -> if Statement : Runs code block only if condition is true
+
+            -> if-else Statement: Runs one code block if condition is true, another code block
+                if condition is false
+
+                -> ternary operator is also known as Conditional Operator
+
+                -> it is concise form of if-else Statement
+
+                    -> Syntax 
+
+                        value_if_true if condition else value_if_false
+
+            -> elif Statement: Check multiple conditions and run appropriate code blocks
+
+            -> match-case Statement (python 3.X): Check multiple conditions and run appropriate code blocks
+
+
+        -> input() - input function is used to take user input from keyboard, and interact with Program
+
+            -> input() process everything as String, use casting 
+
+
+        
 
