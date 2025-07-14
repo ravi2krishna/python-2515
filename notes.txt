@@ -548,5 +548,9 @@
             -> input() process everything as String, use casting 
 
 
-        
+14th July 2025    
+==============        
 
+    -> match-case Statement (python 3.X): Check multiple conditions and run appropriate code blocks
+
+    -> we can use range() function - to generate a sequence of numbers (loops & conditions)

@@ -99,3 +99,16 @@ if age >=18 and nationality == "indian":
     print("You can Vote")
 else:
     print("You cannot Vote")
+
+# match-case syntax
+# choice = 2
+# match choice:
+#     case 1:
+#         print("One")
+#     case 2:
+#         print("Two")
+#     case 3:
+#         print("Three")
+#     case _:
+#         print("Invalid")
+
