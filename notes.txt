@@ -554,3 +554,51 @@
     -> match-case Statement (python 3.X): Check multiple conditions and run appropriate code blocks
 
     -> we can use range() function - to generate a sequence of numbers (loops & conditions)
+
+
+16th July 2025    
+==============    
+
+    -> Loops - Used to perform REPETITIVE Tasks/Steps
+
+        -> while loop
+
+            -> Run / Repeat code block as long as the condition is TRUE
+
+            -> If you don't know number of Iterations before hand, use while loop
+
+            -> Syntax
+
+                while condition:
+                    Statements
+
+        -> for loop
+
+            -> Used for Iterations in a sequence types(list, strings, tuples, range etc)
+
+            -> If you number of Iterations before hand, use for loop
+
+            -> Syntax
+
+                for element in sequence:
+                    Statements    
+
+    -> range()
+
+        -> loop the range of numbers 
+
+        -> range(start,stop,step) 
+
+        -> range(10) --> 0 to 9
+        -> range(1,10) --> 1 to 9          
+        -> range(1,10,1) --> 1 to 9
+        -> range(10,1,-1) --> 9 to 1
+    
+    -> Branching Statements (Jump Statements) 
+
+        -> break : terminate the loop immediately
+        -> continue : skip the current Iteration
+        -> pass : do nothing(placeholder that does nothing)
+
+
+    -> 
