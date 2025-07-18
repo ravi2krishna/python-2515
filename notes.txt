@@ -601,4 +601,33 @@
         -> pass : do nothing(placeholder that does nothing)
 
 
-    -> 
+18th July 2025    
+==============  
+
+    -> Strings - Sequence Of characters
+
+        -> Reperesent Strings
+
+            -> 'hello'
+            -> "hello"
+            -> ''' multi line strings '''
+
+        -> String Slicing
+
+        -> String Immutability
+
+            -> Immutable means cannot change
+
+        -> String Concatenation
+
+        -> String Repeatetion
+
+        -> String Methods
+
+            -> Methods : Task (takes input, process and give output)
+
+            -> dir() function --> used to list all the attributes, methods of specified object
+
+            --> help() --> documentation tool
+
+            
