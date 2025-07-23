@@ -660,7 +660,16 @@
             -> Tuples
             -> Dictionaries
             -> Sets
+    
+    -> Data Structure - Way of organizing and storing data 
 
-        
+    -> Lists 
+
+        -> List is a built-in data structure, which allows to
+        store multiple items in a single variable using []
+
+        -> Lists are one of mostly widely used data structures
+        in python
+
 
 
