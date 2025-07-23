@@ -671,5 +671,36 @@
         -> Lists are one of mostly widely used data structures
         in python
 
+        -> Inside Lists we have different types of data
 
+        -> Access data inside Lists
 
+            -> Each item inside a list has a position, called Index
+            -> Index starts from 0 same as in strings or any iterable
+            -> Both Positive & Negative supports
+            -> Indexing and Slicing supports, same as string
+
+                 -5  -4  -3   -2  -1
+                [10, 20, 30, 40, 50]
+                 0    1   2   3   4 
+
+        -> When working with lists, memory is allocated separately 
+        for every list object, even though values are same.
+
+        -> Individual elements inside the list, will refer to same object
+
+        -> If you access an index out of range, we get errors
+
+        -> We can create lists using list class 
+
+        -> How to know which object is iterable or not ?
+
+            -> use dir() and check for __iter__
+
+        -> Lists Support Various Methods to perform different 
+            operations based on the requirements
+
+        -> List Methods (11) 
+
+            'append', 'clear', 'copy', 'count', 'extend', 'index',
+            'insert', 'pop', 'remove', 'reverse', 'sort
