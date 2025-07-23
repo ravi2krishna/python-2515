@@ -635,4 +635,32 @@
 
     -> LMS With String Functionalities
 
+23rd July 2025    
+==============
+
+    -> Any data we used so far we stored inside a variable
+        -> value = 10
+        -> value = "Hello"
+        -> Using Variables we store ONLY ONE VALUE
+
+        -> values = 10,20,30 (Incorrect with variables)
+
+    -> Where i want to store more than one value or MULTIPLE Values,
+        we use Collections
+
+        -> values = [10,20,30] (Correct with Collections)     
+
+    -> Collections
+
+        -> Using Collections we can store more than one value or 
+            MULTIPLE Values
+        
+        -> Python provided 4 Classes to handle multiple values
+            -> Lists
+            -> Tuples
+            -> Dictionaries
+            -> Sets
+
+        
+
 
