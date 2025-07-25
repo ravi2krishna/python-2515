@@ -704,3 +704,59 @@
 
             'append', 'clear', 'copy', 'count', 'extend', 'index',
             'insert', 'pop', 'remove', 'reverse', 'sort
+
+25th July 2025    
+==============
+
+    -> List Methods 
+
+    1 -> append : adds an element to the end of the list
+         element can be a number, string or list also
+
+    2 -> extend : takes an iterable (list, tuples, strings), and add
+    each element to the list Individually
+
+    NOTE: Both append & extend will take only single argument
+
+    3 -> insert : insert allows you to insert an element at
+        a specific position(index)
+
+            -> if you give index out of range, element is added
+            at the end of the list
+
+            -> insert will move the positions, but not replace
+
+    4 -> pop - will remove and returns an element from the list
+        removes last element
+
+    5 -> remove - will remove based on pattern, not by index
+        By default first occurrence is removed, 
+        If pattern is not found, we get error  
+
+    6 -> clear - clears all the elements in list  
+
+    7 -> index - returns index position
+        -> element is must
+        -> start is optional, default start is 0
+        -> end is optional, default end is end of list
+    
+    8 -> count - returns number of times an element is appeared
+
+    9 -> copy - creates a shallow copy, duplicating without 
+    affecting the original
+
+        -> if you want soft copy use Assignment
+    
+    10 -> reverse - reverses the elements in the list, 
+        updates the original list
+
+        -> Reverse but don't update original list (Slicing)
+
+    11 -> sort - sorts the list either in ascending or descending
+        -> Default is ascending
+        -> If you need descending, update reverse as True
+        -> Sort can be possible only with same type of data, 
+            mix data we cannot sort
+
+
+
