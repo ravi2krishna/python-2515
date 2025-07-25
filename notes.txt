@@ -759,4 +759,14 @@
             mix data we cannot sort
 
 
+    -> Lists Characteristics
+
+        -> Ordered - Items stored and order is preserved
+
+        -> Mutable - You can change the data (append, remove etc)
+
+        -> Allows Duplicates - Same element can be stored multiple times
+
+        -> Can Hold Any Type Of Data 
+
 
