@@ -800,4 +800,17 @@
         -> Can Hold Any Type Of Data 
 
         -> NOTE - Use tuples only for data safety(fixed data/constants)
-            
+
+    -> Dictionaries -  Dictionaries are also built in data structure, 
+    to store multiple items as collection of key value pairs 
+    using a single variable, using curly braces { }
+
+    -> Dictionaries are based on key values, rules to check
+
+        -> Keys must be Immutables Only(Strings, Numbers, Tuples)
+            -> 95% or more than that, we use strings as keys
+        -> Values can be any object
+
+    -> Dictionaries Will not support Indexing
+
+        -> NO Indexing and Slicing is supported in Dictionaries
