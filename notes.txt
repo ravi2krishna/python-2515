@@ -770,3 +770,34 @@
         -> Can Hold Any Type Of Data 
 
 
+28th July 2025    
+==============
+
+    -> Tuples - Tuples are also built in data structure, to store 
+    multiple items using a single variable, using parenthesis ()
+
+    -> NOTE - Tuples are IMMUTABLE (Cannot Change) 
+
+    -> Use Tuples, when you have READ ONLY Functionalities
+
+    -> Tuples have only TWO methods
+
+        -> index - returns index position
+            -> element is must
+            -> start is optional, default start is 0
+            -> end is optional, default end is end of list 
+        -> count - returns number of times an element is appeared 
+    
+    -> Tuples Characteristics
+
+        -> Ordered - Items stored and order is preserved
+
+        -> Immutable - You cannot change the data 
+            -> Only Access (index & count only)
+
+        -> Allows Duplicates - Same element can be stored multiple times
+
+        -> Can Hold Any Type Of Data 
+
+        -> NOTE - Use tuples only for data safety(fixed data/constants)
+            
