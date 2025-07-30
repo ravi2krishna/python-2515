@@ -801,6 +801,9 @@
 
         -> NOTE - Use tuples only for data safety(fixed data/constants)
 
+30th July 2025    
+==============
+
     -> Dictionaries -  Dictionaries are also built in data structure, 
     to store multiple items as collection of key value pairs 
     using a single variable, using curly braces { }
@@ -814,3 +817,41 @@
     -> Dictionaries Will not support Indexing
 
         -> NO Indexing and Slicing is supported in Dictionaries
+    
+    -> Dictionaries Characteristics
+
+        -> Ordered - Have defined order
+
+        -> Mutable - You can add, change and remove
+
+        -> Allows Duplicates - Same element can be stored multiple times only Values
+
+            -> Keys are unique (No Duplicates fpr keys)
+
+        -> Keys must be Immutables Only
+
+        -> Values can be any object
+
+        -> NOTE - Store data with a label(key)
+
+            -> Need to look up values quickly based on a name, id etc
+    
+    -> Sets - Sets are also built in data structure, to store 
+    multiple values using a single variable, using curly braces { }
+
+        -> In sets we don't have key value pairs
+
+    -> Sets are UUU
+
+        -> Unordered
+        -> Unindexed
+        -> Unique elements
+
+        -> NOTE: Duplicates are automatically removed
+
+        -> Used especially for performing Mathematical set operations like
+            union, intersection, difference & symmetric difference
+
+        
+
+
