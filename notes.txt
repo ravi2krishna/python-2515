@@ -835,11 +835,18 @@
         -> NOTE - Store data with a label(key)
 
             -> Need to look up values quickly based on a name, id etc
-    
+
+1st Aug 2025    
+==============
+
     -> Sets - Sets are also built in data structure, to store 
     multiple values using a single variable, using curly braces { }
 
         -> In sets we don't have key value pairs
+
+        -> Lists - [10,20,30,40,50]
+        -> Tuples - (10,20,30,40,50)
+        -> Sets - {10,20,30,40,50}
 
     -> Sets are UUU
 
@@ -852,6 +859,39 @@
         -> Used especially for performing Mathematical set operations like
             union, intersection, difference & symmetric difference
 
-        
+        -> NOTE - TypeError: 'set' object is not subscriptable
 
+        -> not subscriptable - means you cannot use [index] and access
+            elements like in list and tuples
 
+        -> unhashable - means you are using list as a key in Dictionary or
+            adding a list as an element is set (immutables allowed)
+
+    -> Sets operations
+
+        -> 17 operations
+
+    -> Set Characteristics
+
+        -> UnOrdered - Items stored in random order
+
+        -> Mutable - You can change the data 
+
+        -> No Duplicates - Duplicate element will be removed
+
+        -> Can Hold Any Type Of Data 
+
+        -> Unindex for sets (not subscriptable)
+
+        -> When To Use Sets
+
+            -> Uniqueness in data
+            -> Mathematical Set Operations (union, intersection etc)
+
+        -> Regular Sets are Mutable
+        -> Frozen sets are Immutable   
+
+        -> Frozen sets only support
+
+            -> union, intersection, difference, symmetric difference,
+                issubset, issuperset, isdisjoint
