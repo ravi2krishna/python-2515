@@ -895,3 +895,15 @@
 
             -> union, intersection, difference, symmetric difference,
                 issubset, issuperset, isdisjoint
+
+4th Aug 2025    
+==============
+
+-> Application Setup Using 
+
+    -> Lists
+    -> Tuples
+    -> Dictionaries
+    -> Sets
+
+
