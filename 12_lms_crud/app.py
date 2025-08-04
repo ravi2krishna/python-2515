@@ -63,10 +63,19 @@ while True:
                 "skills": skills
             }
             print("Student Added Successfully")
-            print(students) 
+            print(students)         
         
     elif choice == "2":
-       print("Performing Choice 2 Operation") 
+       print("Performing Choice 2 Operation")
+       student_id = input("Enter Student ID To Modify: ") 
+       if student_id in students:
+           new_name = input("Enter New Name: ").strip().title()
+           students[student_id]["name"] = new_name
+           print("Student Updated Successfully")
+           print(students)
+       else:
+           print("Student ID Not Found")
+       
     elif choice == "3":
        print("Performing Choice 3 Operation")
     elif choice == "4":
