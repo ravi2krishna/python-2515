@@ -78,6 +78,14 @@ while True:
        
     elif choice == "3":
        print("Performing Choice 3 Operation")
+       student_id = input("Enter Student ID To Delete: ") 
+       removed = students.pop(student_id,None)
+       if removed:
+           print("Student Deleted Successfully")
+           print(students)
+       else:
+           print("Student ID Not Found")
+       
     elif choice == "4":
        print("Performing Choice 4 Operation")     
     elif choice == "5":
