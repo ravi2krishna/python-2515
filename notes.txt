@@ -906,4 +906,49 @@
     -> Dictionaries
     -> Sets
 
+6th Aug 2025    
+==============
 
+-> Functions
+
+-> In python, function is a block of code that does 
+    some TASK / ACTION
+
+-> We use functions to get reuseable code, to avoid REPETITION
+
+-> Breaking down complex/large tasks, into smaller manageable blocks 
+    of tasks
+
+-> function syntax
+
+    def function_name():
+        Statements
+
+-> functions with parameters
+
+    -> this type of functions, allow you to pass data to 
+        function, when you call it
+    
+    -> Based on inputs, you can use different logics, 
+    make code more dynamic and flexibility
+
+    -> def arithmetic(a,b):
+    print(a+b)
+
+        # a & b -> parameters
+        # 10 & 20 -> arguments
+
+-> Python Supports different ways to pass arguments to functions
+
+    -> Positional Arguments
+    -> Keyword Arguments
+    -> Default Arguments
+    -> Variable Length Positional Arguments(*args)
+    -> Variable Length Keyword Arguments(**kwargs)
+
+-> Positional Arguments
+
+    -> Pass arguments in the exact order, defined in function
+
+    -> Position matters, like first argument goes to first parameter,
+    second argument goes to second parameter and so on
