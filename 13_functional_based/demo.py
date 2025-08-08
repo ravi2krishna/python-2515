@@ -210,3 +210,44 @@ def add(a,b,opr):
 print(add(2,3,'+'))
 print(add(2,3,'-'))
 print(add(2,3,'*'))
+
+# Local Scope works inside the function
+def add():
+    b = 5
+    c = 7
+    print(b)
+    print(c)
+add()
+
+# print(c) 
+
+def add(b,c): 
+    print(b)
+    print(c)
+add(5,7)
+
+# Global Scope
+a = 6
+def add():
+    b = 5
+    c = 7
+    print(b)
+    print(c)
+    print(a)
+add()
+
+# if defined in both local and global, 1st pref is local only
+a = 6
+def add(b,c,a):
+    print(b)
+    print(c)
+    print(a)
+add(5,7,8)
+
+# By default it is READ ONLY 
+count = 0
+def increment():
+    global count
+    count += 1
+increment()
+print("Count: ",count)

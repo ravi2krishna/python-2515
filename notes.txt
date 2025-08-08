@@ -1016,3 +1016,28 @@
         can take any value
     
     -> Return Statement, should be the last Statement, in the function execution
+
+
+-> Scopes in Functions
+
+    -> Scope means how variable can be accessed based on where the variable is defined
+
+    -> Local Scope
+
+        -> A local variable is declared inside a function
+
+        -> It only exists while the function runs
+
+        -> You cannot use it outside the function
+
+        -> NOTE: Earlier we have defined parameters, those are also local variables
+
+    -> Global Scope
+
+        -> A Global variable is declared outside a function
+
+        -> It can be used anywhere in code, inside and outside function
+
+        -> By default it is READ ONLY 
+
+        -> If you want to change the value, then you need a keyword called global
