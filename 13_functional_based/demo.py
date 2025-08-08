@@ -88,3 +88,94 @@ def login(username,password):
 # login("ravi","pass")
 # login("ravi","pass123") -> Correct 
 login("pass123","ravi")
+
+# functions with parameters -> Positional Arguments
+def emp_info(emp_name,emp_email,emp_location):
+    print(f"Hi {emp_name}, your email is {emp_email} and your work location is {emp_location}")
+emp_info("Ravi","ravi@gmail.com","hyderabad")
+
+
+# functions with parameters -> Default Arguments
+def emp_info(emp_name,emp_email,emp_location="hyderabad"):
+    print(f"Hi {emp_name}, your email is {emp_email} and your work location is {emp_location}")
+emp_info("Ravi","ravi@gmail.com")
+
+# functions with parameters -> Default Arguments can be overridden by function passed arguments
+def emp_info(emp_name,emp_email,emp_location="hyderabad"):
+    print(f"Hi {emp_name}, your email is {emp_email} and your work location is {emp_location}")
+emp_info("Ravi","ravi@gmail.com","pune")
+
+# functions with parameters -> Default Arguments next all consecutive parameters
+#   should be default only
+# SyntaxError: non-default argument follows default argument
+# def emp_info(emp_name,emp_email,emp_location="hyderabad",address):
+#     print(f"Hi {emp_name}, your email is {emp_email} and your work location is {emp_location} and your actual address is {address}")
+# emp_info("Ravi","ravi@gmail.com","pune","bangalore")
+
+def emp_info(emp_name,emp_email,emp_location="hyderabad",address="india"):
+    print(f"Hi {emp_name}, your email is {emp_email} and your work location is {emp_location} and your actual address is {address}")
+emp_info("Ravi","ravi@gmail.com","pune","bangalore")
+emp_info("Ramu","ramu@gmail.com")
+
+# functions with parameters -> Without Keyword(Named) Arguments
+def emp_info(emp_name,emp_email,emp_location="hyderabad",address="india"):
+    print(f"Hi {emp_name}, your email is {emp_email} and your work location is {emp_location} and your actual address is {address}")
+emp_info("ravi@gmail.com","Ravi","pune","bangalore")
+
+# functions with parameters -> With Keyword(Named) Arguments
+def emp_info(emp_name,emp_email,emp_location="hyderabad",address="india",mobile="9090"):
+    print(f"Hi {emp_name}, your email is {emp_email} and your work location is {emp_location} and your actual address is {address} and mobile is {mobile}") 
+emp_info(emp_email="ravi@gmail.com",emp_name="Ravi",mobile="99999999")
+
+# functions with parameters -> Arbitrary Positional Arguments
+def add_all(*numbers):
+    total = 0
+    for i in numbers:
+        total = total + i
+    print(f"Total Sum is: {total}")
+
+add_all(1,2,3)
+add_all(10,20,30,40,50,60,70,80,90,100)
+
+# functions with parameters -> Arbitrary Keyword Arguments
+def profile(**info):
+    print(info)
+profile(name="ravi",email="ravi@gmail.com",mobile=9989090,rating=4.5)
+
+# functions with parameters -> Arbitrary Keyword Arguments -> by default only keys we get
+def cred_trans(**trans):
+    print(trans)
+    total = 0
+    for i in trans:
+        print(i)
+cred_trans(jan=1000,feb=2000,mar=3000)
+
+# functions with parameters -> Arbitrary Keyword Arguments -> to get values
+def cred_trans(**trans):
+    print(trans)
+    total = 0
+    for i in trans:
+        print(trans[i])
+cred_trans(jan=1000,feb=2000,mar=3000)
+
+# functions with parameters -> Arbitrary Keyword Arguments -> using both for some calculations
+def cred_trans(**trans):
+    print(trans)
+    total = 0
+    for i in trans:
+        total = total + trans[i]
+    print(f"You have done {len(trans)} and transactions total value is {total}")
+cred_trans(jan=1000,feb=2000,mar=3000)
+
+
+# functions with parameters -> Arbitrary Positional & Keyword Arguments -> using both for some calculations
+def cred_trans(*trans,**info):
+    print(trans)
+    print(info)
+    total = 0
+    for i in trans:
+        total = total + i
+    print(f"Hi {info['name']}, you have done {len(trans)} transactions for a total amount of {total} ")
+cred_trans(1000,2000,3000,name="ravi",email="ravi@gmail.com")
+cred_trans(5000,6000,name="ramu",email="ramu@gmail.com")
+ 
