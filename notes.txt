@@ -1005,3 +1005,14 @@
 
 -> NOTE - We can use both Arbitrary Positional Arguments and
     Arbitrary Keyword Arguments together, good for Dynamic data inputs
+
+-> Functions With Return Values
+
+    -> Be default functions will not give any response
+
+    -> To give response, use return keyword
+
+    -> Always give appropriate response with return, as python is dynamic Typed
+        can take any value
+    
+    -> Return Statement, should be the last Statement, in the function execution

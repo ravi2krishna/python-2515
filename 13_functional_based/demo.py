@@ -178,4 +178,35 @@ def cred_trans(*trans,**info):
     print(f"Hi {info['name']}, you have done {len(trans)} transactions for a total amount of {total} ")
 cred_trans(1000,2000,3000,name="ravi",email="ravi@gmail.com")
 cred_trans(5000,6000,name="ramu",email="ramu@gmail.com")
- 
+
+
+# Be default functions will not give any response 
+def add(a,b):
+    a+b
+print(add(3,4))
+
+# With return 
+def add(a,b):
+    return a+b
+print(add(3,4))
+
+# Return Statement, should be the last Statement
+def add(a,b):
+    return a+b
+    return a-b
+    return a*b
+print(add(3,4))
+
+# Return Statement, you can have multiple Return Statement
+def add(a,b,opr):
+    if opr == '+':
+        return a+b
+    elif opr == '-':
+        return a-b
+    else:
+        return "Invalid Operator"
+    print("Check this statement will run")
+
+print(add(2,3,'+'))
+print(add(2,3,'-'))
+print(add(2,3,'*'))
