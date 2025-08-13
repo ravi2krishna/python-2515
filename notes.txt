@@ -1178,3 +1178,10 @@
                 (Numpy, Pandas etc)
 
 
+    -> User Defined modules
+
+        -> Modules you create by yourself i.e simply a .py file
+
+    -> External Modules
+
+        -> PIP - Python Package Manager
