@@ -1224,3 +1224,29 @@
     
 -> Working With CSV files
 
+
+20th Aug 2025    
+==============
+
+    -> Working with Web Applications
+
+        -> Interaction happens between Client and Server
+
+    -> JSON is light weight data interchange format
+
+    -> Working with JSON is must when using Web Development API's 
+
+        -> Django 
+
+    -> We Can import json module and work with JSON data
+
+    -> When Working With json module
+
+        -> json.dump() -> Write JSON to file
+
+        -> json.load() -> Read JSON from file
+
+        -> json.dumps() -> Convert Python To String 
+
+        -> json.loads() -> Convert String To Python
+
