@@ -1250,3 +1250,27 @@
 
         -> json.loads() -> Convert String To Python
 
+
+-> Exception(Error) Handling 
+
+    -> Exception - it's a error that occurs, during Program execution
+    
+    -> What happens when an Exception occurs ?
+
+        -> It will abruptly stop the program execution, then and there it self
+
+        -> Python way of Handling Exceptions is to stop
+
+    -> To handle the Exceptions by yourself
+
+        -> try
+        -> except 
+        -> else
+        -> finally
+
+    -> try and except
+
+        -> try - code that may cause error
+
+        -> except - code to run if there is error
+
