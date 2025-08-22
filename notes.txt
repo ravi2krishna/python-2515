@@ -1267,10 +1267,50 @@
         -> except 
         -> else
         -> finally
+        -> raise 
 
     -> try and except
 
         -> try - code that may cause error
 
         -> except - code to run if there is error
+
+22nd Aug 2025    
+==============
+
+-> Exception Handling
+
+    -> When we get multiple Exceptions
+
+    -> If you want to know appropriate types of errors, we can use sys module
+
+        -> sys.exc_info() 
+
+    -> To catch multiple Exceptions, you can use multiple except's
+
+    -> else & finally
+
+        -> else - Runs if no Exception is raised in the try block 
+
+        -> finally - Runs no matter what happens, whether you have an Exception or not
+            -> For finally cleaning up 
+    
+
+-> User Defined Exceptions
+
+    -> You can create your own Exceptions
+
+    -> Why ?
+
+        -> To handle errors in our own way, so that we can give more meaningful and readable
+        error messages
+
+    -> We have a predefined class called Exception
+
+        -> If you use(inherit) Exception class then the inherited class is User Defined Exception
+
+        syntax: 
+        class MyCustomException(Exception):
+            pass
+
 
