@@ -1470,3 +1470,39 @@
             -> Instance variables store data for each object.
             -> Instance methods use self to access & modify that data.
 
+
+-> Class variables
+
+    -> Class Variables are shared data i.e data is shared across all the instances(Objects) of class
+
+    -> Class Variables Belong to a class, rather than objects
+
+    -> Defined inside the class, but outside the methods.
+
+    -> Access
+
+        -> We can use ClassName.variable 
+        -> We can use object or self (But preferred is always classname ) 
+
+    -> If class variable is changed, it will reflect all the objects calling on it
+
+    -> For Memory efficiency, as only one copy of class variable is create, though 100's of objects
+         are using it
+
+-> Class Methods
+
+    -> Methods defined inside the class, that will operate on class variables
+
+    -> Not very commonly used like instance methods
+
+    -> Class methods are more bound to classes, but not objects
+
+    -> Take cls as a first parameter (cls refers as class, self refers to object) 
+
+    -> These methods cannot act(modify) instance data / Variables
+
+    -> NOTE : We use @classmethod decorator for class methods
+
+-> Class Variable + Class Method Relationship
+    -> Class variables store data common to all objects.
+    -> Class methods change or use that shared data.    
