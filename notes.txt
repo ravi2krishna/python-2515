@@ -1400,3 +1400,52 @@
 
         def function_name():
             pass
+
+25th Aug 2025    
+==============
+
+-> Classes - Objects - Methods
+
+-> NOTE : When we execute, code inside class, it runs, unlike functions
+-> NOTE : Class call is not mandatory, function call is mandatory
+
+-> student_obj.info() # TypeError: info() takes 0 positional arguments but 1 was given
+
+-> NOTE: There is a default behavior with python, that is python automatically
+    passes an object (student_obj) as the first argument to the method
+        first argument is called as self 
+        self == this 
+
+-> NOTE : self is referring to current object of class  
+          python automatically passes self as first argument, when we call method
+          that's why methods must accept self as first parameter
+          self lets methods access instance(object) variables
+
+-> When we have class level variable, we can use Classname.variable to access them
+
+-> we have data(student_name & student_email) fixed/hard coded right in the class, 
+    now I want to pass dynamic data like we used to do in functions, then we need a 
+    special method __init__ 
+
+-> __init__ is a special methods(Constructor) in python
+
+    -> It is used to initialize the values to object variables
+
+    -> It will automatically run, when we create an object
+
+    -> When working with __init__ methods, there is no concept of return, as it always implicitly 
+    returns None 
+
+
+-> Instance Variables
+
+    -> Instance Variables/Attributes are variables that belong to an object (instance), not the class.
+    
+    -> Instance variables are commonly defined in the __init__ method (constructor) 
+        using the self keyword
+        
+    -> Each object has its own copy of instance variables with potentially different values, 
+        meaning modifying an instance variable in one object does not affect the same variable 
+        in other objects
+    
+    -> Accessed via self.variable_name
